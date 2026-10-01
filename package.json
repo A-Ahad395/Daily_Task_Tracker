@@ -1,0 +1,11 @@
+{
+  "name": "daily-task-tracker",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"frontend/src/**/*.{ts,tsx,css}\" \"frontend/*.{ts,js,json}\" \"backend/src/**/*.ts\" \"backend/*.json\" \"*.json\" README.md docker-compose.yml",
+    "format:check": "prettier --check \"frontend/src/**/*.{ts,tsx,css}\" \"frontend/*.{ts,js,json}\" \"backend/src/**/*.ts\" \"backend/*.json\" \"*.json\" README.md docker-compose.yml"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
